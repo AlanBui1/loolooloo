@@ -50,7 +50,7 @@ export default function Waterlog() {
     return (
         <>
             <div className="water-container">
-                <img src="src/assets/moon.png" className = "moon"></img>
+                <img src="https://loolooloo.vercel.app/moon.png" className = "moon"></img>
                 <hr></hr><br></br><hr></hr><br></br><hr></hr><br></br><hr></hr><br></br><hr></hr><br></br>
                 <hr></hr><br></br><hr></hr><br></br><hr></hr><br></br><hr></hr>
                 <Water waterLevel={waterLevel} handleLevelChange={handleLevelChange} watstars = {watstars} />
