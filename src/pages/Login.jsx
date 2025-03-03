@@ -40,7 +40,7 @@ function Login() {
               />
               <MDBInput
                 wrapperClass="mb-4 w-100"
-                label="Password"
+                label="Bluetooth ID"
                 id="formControlLg"
                 type="password"
                 size="lg"
