@@ -14,7 +14,7 @@ import {
   MDBCheckbox,
 } from "mdb-react-ui-kit";
 
-function Login() {
+export default function Login() {
   return (
     <MDBContainer fluid>
       <MDBRow className="d-flex justify-content-center align-items-center h-100">
@@ -42,18 +42,27 @@ function Login() {
                 wrapperClass="mb-4 w-100"
                 label="Bluetooth ID"
                 id="formControlLg"
+                type="number"
+                size="lg"
+              />
+              <MDBInput
+                wrapperClass="mb-4 w-100"
+                label="Bluetooth ID"
+                id="formControlLg"
+                type="number"
+                size="lg"
+              />
+              <MDBInput
+                wrapperClass="mb-4 w-100"
+                label="Bluetooth ID"
+                id="formControlLg"
                 type="password"
                 size="lg"
               />
 
-              <MDBCheckbox
-                name="flexCheck"
-                id="flexCheckDefault"
-                className="mb-4"
-                label="Remember password"
-              />
+            
 
-              <NavLink to = "/map"><button className = "login-button">LOGIN</button></NavLink>
+              <NavLink to = "/dashboard"><button className = "login-button">LOGIN</button></NavLink>
 
               <hr className="my-4" />
               
@@ -65,4 +74,3 @@ function Login() {
   );
 }
 
-export default Login;

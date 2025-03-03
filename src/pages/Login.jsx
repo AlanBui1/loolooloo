@@ -46,14 +46,9 @@ function Login() {
                 size="lg"
               />
 
-              <MDBCheckbox
-                name="flexCheck"
-                id="flexCheckDefault"
-                className="mb-4"
-                label="Remember password"
-              />
+             
 
-              <NavLink to = "/map"><button className = "login-button">LOGIN</button></NavLink>
+              <NavLink to = "/dashboard"><button className = "login-button">LOGIN</button></NavLink>
 
               <hr className="my-4" />
               

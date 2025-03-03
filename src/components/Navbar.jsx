@@ -6,6 +6,5 @@ export default function Navbar() {
       <img className="logo-icon"src = "/assets/images/hackthenorth/logo_icon.png"></img>
       <img className="logo-loo"src = "/assets/images/hackthenorth/logo_loo.png"></img>
       </div>
-    </>
   );
 }
